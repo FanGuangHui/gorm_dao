@@ -1,6 +1,8 @@
 #!/bin/bash
+
 dir=$GOPATH
-echo $dir
+
+echo "GOPATH="$dir
 
 go build -o gormdao ./cmd/gormdao/main.go
 
