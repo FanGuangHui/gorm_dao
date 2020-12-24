@@ -4,7 +4,7 @@ gormdao是一种代码生成工具，可以生成更好的API来查询和更新[
 
 ## 如何运行
 
-```go
+```
 //go:generate gormdao -structs User,Admin -input . -imports gorm.io/gorm -transformErr true
 type User struct {
 	gorm.Model
