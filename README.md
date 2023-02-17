@@ -28,14 +28,14 @@ user_dao.go
 ```
 
 ## 安装
- - `git clone github.com/fanguanghui/gormdao`
+ - `git clone github.com/netsun666/gormdao`
  - `go build -o gormdao ./cmd/gormdao/main.go`
  - `mv gormdao to $GOPATH/bin/`
  - `gormdao -structs User,Admin -input ./example -imports gorm.io/gorm -transformErr true`
 
 
 ## 使用
- - `go get -u github.com/fanguanghui/gormdao`
+ - `go get -u github.com/netsun666/gormdao`
  - 模型文件中添加 `//go:generate ...` 如上代码所示.
 
 
